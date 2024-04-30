@@ -11,7 +11,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import java.time.LocalDateTime;
 
 @Entity
-@Table
+@Table(name = "auth_user")
 @EntityListeners(AuditingEntityListener.class)
 @Data
 @NoArgsConstructor
@@ -28,6 +28,4 @@ public class User {
     @CreatedDate
     @Column(name = "created_at")
     private LocalDateTime createdAt;
-
-
 }
