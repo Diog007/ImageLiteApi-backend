@@ -31,4 +31,13 @@ public class UserController {
             return ResponseEntity.status(HttpStatus.CONFLICT).body(jsonResultado);
         }
     }
+
+    @PostMapping("/auth")
+    public ResponseEntity authenticate(@RequestBody CredentialsDTO credentials) {
+        var token = userService.autheticate(credentials.email(), credentials.password());
+        if (token == null) {
+            ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
+        }
+        return ResponseEntity.ok(token);
+    }
 }
