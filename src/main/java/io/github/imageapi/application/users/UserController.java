@@ -36,7 +36,7 @@ public class UserController {
     public ResponseEntity authenticate(@RequestBody CredentialsDTO credentials) {
         var token = userService.autheticate(credentials.email(), credentials.password());
         if (token == null) {
-            ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).build();
         }
         return ResponseEntity.ok(token);
     }
