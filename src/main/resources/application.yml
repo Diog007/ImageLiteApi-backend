@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5433/imagelite
+    url: jdbc:postgresql://localhost:5432/imagelite
     username: postgres
     password: postgres
   jpa:
@@ -21,4 +21,4 @@ spring:
     activate:
       on-profile: production
   datasource:
-    url: jdbc:postgresql://${POSTGRES_HOST}:5433/imagelite
+    url: jdbc:postgresql://${POSTGRES_HOST}:5432/imagelite
