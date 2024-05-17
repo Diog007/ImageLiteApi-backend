@@ -5,10 +5,17 @@
 
 A Image Lite API é uma API desenvolvida em Java, utilizando Spring Boot para o backend e React para o frontend. Seu propósito central é o gerenciamento de imagens. Através dessa aplicação, é possível realizar diversas operações, como postar imagens, pesquisar imagens por nome e tag. Além disso, inclui funcionalidades de login, permitindo aos usuários tanto efetuar login quanto se cadastrar.
 
+# 📂 Repositórios do Projeto
+## Backend
+- [Repositório - backend:](https://github.com/Diog007/ImageLiteApi-backend#/)
+## Frontend
+- [Repositório - FrontEnd:](http://ec2-3-129-57-99.us-east-2.compute.amazonaws.com:3000/login#/)
+
+
 
 ## 🚀 Deploy 
 A api foi implantada na AWS para facilitar o teste. Você pode acessar a aplicação através deste
-[Swagger for application](http://ec2-18-220-165-108.us-east-2.compute.amazonaws.com:3000/login#/).
+[Swagger for application](https://github.com/Diog007/ImageLite-FrontEnd#/).
 
 Aqui estão as credenciais padrão para obter o Token JWT :
 
