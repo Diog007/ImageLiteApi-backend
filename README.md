@@ -15,7 +15,7 @@ A Image Lite API é uma API desenvolvida em Java, utilizando Spring Boot para o 
 
 ## 🚀 Deploy 
 A api foi implantada na AWS para facilitar o teste. Você pode acessar a aplicação através deste
-[Deploy for application](http://ec2-3-129-57-99.us-east-2.compute.amazonaws.com:3000/login#/).
+[Deploy for application](http://ec2-3-142-240-104.us-east-2.compute.amazonaws.com:3000/login#/).
 
 Aqui estão as credenciais padrão para obter o Token JWT :
 
